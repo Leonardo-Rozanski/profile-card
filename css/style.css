@@ -1,0 +1,65 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(/assets/img/bg-pattern-top.png), url(/assets/img/bg-pattern-bottom.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 50%, 50%;
+  background-position: right 50vw bottom 40vh, left 55vw top 50vh;
+}
+#container {
+  background-color: white;
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  margin-top: 8%;
+}
+#informacoes {
+  text-align: center;
+  position: relative;
+  bottom: 55px;
+  color: hsl(229, 23%, 23%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 13px;
+}
+#estatisticas {
+  text-align: center;
+  border-top: solid grey 1px;
+  padding-top: 20px;
+}
+#estatisticas h2{
+  width: auto;
+  margin: 2%;
+  display: inline-flex;
+  position: relative;
+  color: hsl(229, 23%, 23%);
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 10px;
+}
+#estatisticas2 p {
+  width: auto;
+  margin: 2%;
+  display: inline-block;
+  color: hsl(229, 23%, 23%);
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 15px;
+  padding-top: 0;
+}
+#foto #card {
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 350px;
+}
+#foto #leo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 35px;
+  margin-bottom: 0px;
+  border-radius: 50px;
+  background-color: white;
+
+}
+
